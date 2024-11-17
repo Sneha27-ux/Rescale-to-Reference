@@ -1,6 +1,6 @@
 import sys
 
-with open('/home/bec51310.iitr/workplace/project/rescale_to_reference/lines_to_pull.tsv','r') as lines:
+with open('/workplace/project/rescale_to_reference/lines_to_pull.tsv','r') as lines:
    lines_df=[line.split() for line in lines]
 
 length_count={int(row[0]):int(row[1]) for row in lines_df}
