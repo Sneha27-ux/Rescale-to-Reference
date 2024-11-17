@@ -1,12 +1,12 @@
 import sys
 
-with open('/home/bec51310.iitr/workplace/project/rescale_to_reference/total.txt','r') as f:
+with open('workplace/project/rescale_to_reference/total.txt','r') as f:
     total=int(f.read().strip())
 
-with open('/home/bec51310.iitr/workplace/project/rescale_to_reference/query.hist','r') as query:
+with open('/workplace/project/rescale_to_reference/query.hist','r') as query:
     query_df=[line.split() for line in query]
 
-with open('/home/bec51310.iitr/workplace/project/rescale_to_reference/reference.hist','r') as ref:
+with open('/workplace/project/rescale_to_reference/reference.hist','r') as ref:
     ref_df=[line.split() for line in ref]
 
 query_df=[(int(fragment),float(norm)) for fragment,norm in query_df]
