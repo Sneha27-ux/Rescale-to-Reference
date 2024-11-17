@@ -1,6 +1,6 @@
 import sys
 
-with open('workplace/project/rescale_to_reference/total.txt','r') as f:
+with open('/workplace/project/rescale_to_reference/total.txt','r') as f:
     total=int(f.read().strip())
 
 with open('/workplace/project/rescale_to_reference/query.hist','r') as query:
