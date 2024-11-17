@@ -15,12 +15,12 @@ set style line 3 lc rgb '#29c524' lt 1 lw 2 pt 3 ps 1
 set style line 4 lc rgb '#7D72F9' lt 1 lw 2 pt 4 ps 1
 set style line 5 lc rgb '#000000' lt 1 lw 2 pt 7 ps 1
 
-plot "/home/bec51310.iitr/workplace/project/rescale_to_reference/reference.hist" using 1:2 with lines title "Reference" lc rgb "forest-green" lw 2, \
-     "/home/bec51310.iitr/workplace/project/rescale_to_reference/query.hist" using 1:2 with lines title "Query" lc rgb "magenta" lw 2, \
-     "/home/bec51310.iitr/workplace/project/rescale_to_reference/x_rescaled_0.hist" using 1:2 with linespoints title "Rep_0" ls 1, \
-     "/home/bec51310.iitr/workplace/project/rescale_to_reference/y_rescaled_0.hist" using 1:2 with linespoints title "Rep_1" ls 2, \
-     "/home/bec51310.iitr/workplace/project/rescale_to_reference/x_rescaled_1.hist" using 1:2 with linespoints title "Rep_2" ls 3, \
-     "/home/bec51310.iitr/workplace/project/rescale_to_reference/y_rescaled_1.hist" using 1:2 with linespoints title "Rep_3" ls 4, \
-     "/home/bec51310.iitr/workplace/project/rescale_to_reference/x_rescaled_2.hist" using 1:2 with linespoints title "Rep_4" ls 5
+plot "/workplace/project/rescale_to_reference/reference.hist" using 1:2 with lines title "Reference" lc rgb "forest-green" lw 2, \
+     "/workplace/project/rescale_to_reference/query.hist" using 1:2 with lines title "Query" lc rgb "magenta" lw 2, \
+     "/workplace/project/rescale_to_reference/x_rescaled_0.hist" using 1:2 with linespoints title "Rep_0" ls 1, \
+     "/workplace/project/rescale_to_reference/y_rescaled_0.hist" using 1:2 with linespoints title "Rep_1" ls 2, \
+     "/workplace/project/rescale_to_reference/x_rescaled_1.hist" using 1:2 with linespoints title "Rep_2" ls 3, \
+     "/workplace/project/rescale_to_reference/y_rescaled_1.hist" using 1:2 with linespoints title "Rep_3" ls 4, \
+     "/workplace/project/rescale_to_reference/x_rescaled_2.hist" using 1:2 with linespoints title "Rep_4" ls 5
 
 unset output
